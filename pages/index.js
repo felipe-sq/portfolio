@@ -27,10 +27,10 @@ const Index = () => {
           maxWidth="700px"
         >
           <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-            Hi, I’m Josh.
+            Hi, I’m Felipe.
           </Heading>
           <Text color={secondaryTextColor[colorMode]}>
-            I compose music and tell stories with harmony, melody, and soundscapes.
+            I write and tinker with code to find out how I can make websites and Web Apps better.
           </Text>
         </Flex>
         <Flex
@@ -44,13 +44,13 @@ const Index = () => {
             About
           </Heading>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            I grew up in Ithaca, NY as part of a musical family, starting piano lessons at five and learning several instruments before moving into composition and electronic production. I'm now based in Los Angeles, but the sound and feeling of upstate NY, the quiet forests, serene gorges and lakes, still resonate distinctly through all of my music.
+            I grew up in California and Oregon as part of an entrepreneurial family which instilled a strong curiosity and work ethic from a young age. I've since moved to Florida, where my curiosity continues to thrive, alongside my desire to understand the inner working of websites, code and technology in general. 
           </Text>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            My favorite color is blue. I love being outside and can usually be found skiing, surfing, or hugging a tree somewhere when I'm not in the studio.
+            My favorite color is green. I love being outside, in the sunshine, whether it's at the beach, at a park or in the back yard. 
           </Text>
           <Text color={secondaryTextColor[colorMode]} mb={4}>
-            In a scoring context, I endeavor to bring an intuitive feel and thoughtful minimalism to every project, collaborating closely with the director to bring their vision to life. Having worked extensively as a session player, producer, songwriter, music director and touring keyboardist, I'm now increasingly focused on scoring original films and series. If you have a project coming up and think my music could be a good fit, I'd love to hear from you.
+            My background in graphic design and writing help to bring a visually pleasing and engaging aesthetic to everything I create or work on. I enjoy new challenges, so if you have a project which could use a fresh perspective, I'd love to hear from you. 
           </Text>
 
 
@@ -67,27 +67,27 @@ const Index = () => {
             Recent Projects
           </Heading>
           <ProjectCard
-            title="time lost but not forgotten"
+            title="Project 1"
             description="cinematic ambient album, with compositions for piano & strings"
-            href="https://open.spotify.com/album/5NeswvVgX7jAOHYe2Dhn50?si=9GEbEzVvSUyp7nEQvUsSXg"
+            href="http://example-url.com"
             image="/time_lost_200.jpg"
           />
           <ProjectCard
-            title="OCEANS"
+            title="Project 2"
             description="Debut album, featuring collaborations with Carmody and Monogem"
-            href="https://open.spotify.com/album/4bAI6GPtSBaS9W1RrSocPk?si=iJCvIJdtSFGBqRmqjOeZzg"
+            href="http://example-url.com"
             image="/oceans_200.jpg"
           />
           <ProjectCard
-            title="Juniper Drive"
+            title="Project 3"
             description="Treman piano single featured on Spotify's Classical New Releases playlist"
-            href="https://open.spotify.com/track/5TqnYnaHDJpQnnt2zWzTiP?si=KOESEHG0Rh-_X7znfuCBLQ"
+            href="http://example-url.com"
             image="/juniper_200.jpg"
           />
           <ProjectCard
-            title="Ty's List"
+            title="Project 4"
             description="Original music for an award-winning documentary film shown at Manhattan Film Festival and Beloit Film Festival"
-            href="http://www.tyslist-themovie.com/"
+            href="http://example-url.com"
             image="/tys_list_200.jpg"
           />
 
